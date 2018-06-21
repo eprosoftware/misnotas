@@ -1,0 +1,34 @@
+/* ================================================================ 
+Copyright (c) 2011 Stu Nicholls - iStu.co.uk. All rights reserved.
+This stylesheet and the associated html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+.iStu4 ul {position:absolute;  margin:0; padding:0; list-style:none; white-space:nowrap; background:#5d7ea2; border:1px solid #fff; padding:10px 0; text-align:left;
+-o-border-radius: 10px;
+-ms-border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-o-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+-ms-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.iStu4 ul ul {left:90%; margin-top:-36px; margin-left:5px;}
+.iStu4 li {margin:0; padding:0; list-style:none; display:inline-block; display:inline;}
+.iStu4 a {display:block; font:bold 14px arial,sans-serif; color:#fff; line-height:25px; text-decoration:none; padding:0 20px 0 10px;} 
+
+.iStu4 li a.a-top{background:url(/images/index_hnavbar_l.gif) no-repeat right center;}
+.iStu4 li a.a-sub {background:url(/images/index_hnavbar_l.gif) no-repeat right center;}
+
+.iStu4 li.clicked > a {background-color:#8daed4;color:#ffffff;}
+
+.iStu4 {padding:0; margin:0; list-style:none; text-align:left; position:relative; background:#5d7ea2; height:25px;}
+.iStu4 > li > a {display:inline-block; margin-right:5px; height:25px;}
+.iStu4 > li {position:relative; display:inline-block;}
+
+.iStu4 > li {*display:inline;}
+.iStu4 > li > ul {top:25px; left:-1px;}
+
+.iStu4 ul {display:none;}

@@ -1,0 +1,583 @@
+body {
+	color: #000000;/*themecolour3%0;*/
+	background-color: #ffffff;/*themecolour3;*/
+}
+
+table {
+	font: 11pt "trebuchet ms", arial, sans-serif	;
+        border-radius: 10px;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+input {
+    font: 12pt "trebuchet ms", arial, sans-serif	;
+    border-radius: 5px;
+}
+
+
+.selectBig {
+    font:32px "arial",arial,sans-serif;
+    border-radius: 0px 0px 10px 10px;
+}
+blockquote {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 20px;
+	color: #000000;/*themecolour3%0;*/
+}
+ol {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+	color: #000000;/*themecolour3%0;*/
+}
+ul {
+	color: #000000;/*themecolour3%0;*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+	list-style-image: url(/images/index_bullet.gif);	
+}
+
+ .headingbg {
+	background-image: url(/images/index_background.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.centercoltext a:link {
+	color: #60799a;/*themecolour1;*/
+}
+.centercoltext a:visited {
+	color: #333333;
+}
+.centercoltext a:link:hover {
+	color: #ff7f00;/*themecolour2;*/
+}
+
+.centercoltext h1 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;/*themecolour3%0;*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+
+}
+
+h2 {
+	font-size: 14px;
+	color: #334a69;/*themecolour1$ -22.3%, -31.8%;*/
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.centercoltext {
+	color: #000000;/*themecolour3%0;*/
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.topcorner {
+	background-image: url(/images/index_corner.gif);
+	background-repeat: no-repeat;
+}
+.footer {
+	background-image: url(/images/index_footer_bg.gif);
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+
+.parahead {
+	font-weight: bold;
+	color: #333333;
+	font-size: 11px;
+}
+.tituloblanco {  font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal; 
+		color: #FFFFFF}
+.tituloblanco10 {  font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 10px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal; 
+		color: #FFFFFF}
+.tituloblanco12 {  font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 13px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal; 
+		color: #FFFFFF}
+.tituloazul {  font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 13px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal; 
+		color: #FFFF66}
+.titulo1 {  font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal; 
+		color: #003399}
+.titulogris { font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal ; 
+		color: #666666}
+.titulorojo {  font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		font-style: normal; 
+		line-height: normal; 
+		font-weight: bold; 
+		font-variant: normal; 
+		color: #A52A2A}
+.titulonegro { font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px; 
+		font-style: normal; line-height: normal; font-weight: bold; font-variant: normal ; color: #000000}
+.titulonegro12 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal ; color: #000000}
+.contenidogris { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal ; color: #333333}
+.contenidonegro { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal ; color: #000000}
+.contenidonegro9 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal ; color: #000000}
+.contenidonegro12 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal ; color: #000000}
+.contenidoblanco { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal ; color: #FFFFFF}
+.tituloruta {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; color: #000066}
+.tituloazulbig {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; color: #000066}
+/* CSS Document */
+
+.to_continue
+{
+	font-size: 9px;
+}
+
+A.minicalendar 
+{ 
+	color: #000000; 
+	font-size: 9px;
+	
+}
+
+A.bminicalendar 
+{ 
+	color: #336699; 
+	font-style: italic;
+	font-weight: bold;
+	font-size: 9px; 
+}
+
+A.minicalendargrey 
+{ 
+	color: #999999; 
+	font-size: 10px;
+	font-weight: bold;
+}
+
+A.bminicalendargrey 
+{ 
+	color: #336699; 
+	font-style: italic; 
+	font-size:10px; 
+}
+
+A.minicalhol
+{ 
+	padding-left:3px;
+	padding-right:3px;
+	background: #dab0b0;
+	color: #000000; 
+	font-size: 10px; 
+}
+
+A.bminicalhol
+{ 
+	padding-left:3px;
+	padding-right:3px;
+	background: #dab0b0;
+	color: #336699; 
+	font-size: 10px; 
+}
+
+A.minicalgreyhol
+{ 
+	padding-left:3px;
+	padding-right:3px;
+	background: #dab0b0;
+	color: #999999; 
+	font-size: 10px; 
+}
+
+A.bminicalgreyhol
+{ 
+	padding-left:3px;
+	padding-right:3px;
+	background: #dab0b0;
+	color: #999999; 
+	font-size: 10px; 
+}
+
+
+.event-on
+{ 
+	background: #D3DCE3;
+	border: #E8F0F0 1px solid;
+}
+
+.event-off
+{ 
+	background: #E8F0F0;
+	border: #D3DCE3 1px solid;
+}
+
+.event-holiday
+{
+	font-size: 100%;
+	background: #dac0c0;
+	color:#000000;
+	vertical-align: middle;
+}
+
+.time
+{
+	background: #D3DCE3;
+	color:#000000;
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+	width: 5.2%;
+	text-align: right;
+	padding-right: 5px;
+	line-height: 11px;
+	border: #E8F0F0 1px solid;
+}
+
+
+.planner-cell
+{
+	cursor: pointer;
+	cursor: hand;
+	border: thin solid black;
+}
+
+/* common */
+.calendar_link_print
+{
+	text-align: center;
+	font-size: 10px;
+}
+
+/*Mini Calendar*/
+
+.calendar_minical_table
+{
+	width: 180px;
+	font-weight: bold;
+}
+
+.calendar_minical_daytable
+{
+	width: 100%;
+}
+
+.calendar_minical_dayname
+{
+	font-size: 9px;
+	text-align: right;
+}
+
+.calendar_minical_hrule
+{
+	width: 96%;
+}
+
+/* Header */
+.calendar_dropbuttons
+{
+	align: center;
+	text-align: center;
+	vertical-align: bottom;
+	font-weight: bold;
+	font-size: 8px;
+}
+
+.calendar-weekidentifier
+{
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.calendar_header
+{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.calendar_dayview_table_header
+{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.calendar_dayview_todo_header
+{
+	margin: 0px; 
+	padding: 2px;
+	font-weight: bold;
+}
+
+/* week view */
+.calendar_week_identifier_table
+{
+	border: 0px solid black;
+	width: 100%;
+}
+
+.calendar_week_identifier
+{
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.calendar_weekview_daytitle
+{
+	font-weight: bold;
+	font-size: 12px;
+	background: #D3DCE3;
+}
+
+.calendar_m_w_table
+{
+	table-layout:fixed;
+	overflow:auto;
+	height: 100%;
+	width: 100%;
+	border: 0px #000000 solid;
+}
+
+.calendar_m_w_table_row
+{
+	height: 80px;
+}
+
+.calendar_m_w_tablecell
+{
+	vertical-align: top;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 6px;
+}
+
+A.event_entry
+{
+	font-size:10px;
+}
+
+/* month view */
+
+.calendar_month_identifier
+{
+	font-size:14px;
+	font-weight: bold;
+}
+
+.calendar_user_identifier
+{
+	font-size:12px;
+	color: #009999;
+	font-weight: bold;
+}
+
+.calendar_week_minical_table
+{
+	width:100%;
+	border: 0px solid #000000
+}
+
+.calendar_weekinfo
+{
+	color: #000000;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.row_on  { color: #000000; background-color: #DDDDDD; }
+.gris  { color: #000000; background-color: #d3d3d3; }
+.row_off { color: #000000; background-color:#E8F0F0; }
+.th 	 {font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		font-style: normal;
+		line-height: normal;
+		font-weight: bold;
+		font-variant: normal;  color: #FFFFFF; background-color:#4f6d8d; }
+.th2 	 { color: #000000; background-color:#849db9; }
+
+.mnav div a:hover {
+	background-color: #D3D3D3;
+	border: 1px solid #1e3ca0;
+	border-bottom: 1px solid #1e3ca0;
+	text-decoration:none; 
+	color: #000000;
+}
+textarea:focus, input:focus, select:focus {
+	        background-color: #E0F0F0;
+	}
+.celda_bordes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	color: #003f94;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+}
+.celda_bordes2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	color: #3d584e;
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+}
+.girado {
+        background-color:#a8bfdd;
+        font-weight: bold;
+        color:#000000;
+        font-size:12px;
+        -webkit-transform: rotate(270deg);
+        border:0px;
+        text-decoration:none;
+}
+.hnavbg  { background-color: #5d7ea2;/*themecolour6;*/ }
+
+ .boton{
+        font-size:14px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white; 
+        background:#5d7ea2;
+        border:0px;
+        border-radius: 5px;
+        height: 30px;
+       }
+ .botonBorde{
+        font-size:14px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white; 
+        background:#5d8aa2;
+        border:1px;
+        border-color: #ffffff;
+        border-radius: 5px;
+        height: 30px;
+       }       
+ .botonfiltro{
+        font-size:15px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white; 
+        background:#9ea7b1;
+        border:0px;
+        width:120px;
+        height:25px;
+       }       
+ .botonred{
+        font-size:12px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white; 
+        background:#9d2f2f;
+        border:0px;
+        width:80px;
+        height:19px;
+       } 
+.login_text_box {
+    background:#FFF url('/images/user_icon.png') no-repeat 4px 4px;
+    border: 1px solid #999; 
+    padding-left: 55px;
+    font-family: arial, sans-serif;
+    outline: medium none;
+    height: 45px;
+    font-size: 32px;
+    font-weight: normal;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;   
+    width: 300px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}      
+
+.pass_text_box {
+    background:#FFF url('/images/acceso.png') no-repeat 4px 4px;
+    border: 1px solid #999; 
+    padding-left: 55px;
+    font-family: arial, sans-serif;
+    outline: medium none;
+    height: 45px;
+    font-size: 32px;
+    font-weight: normal;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;    
+    width: 300px;
+}
+.pass2_text_box {
+    background:#FFF url('/images/acceso.png') no-repeat 4px 4px;
+    border: 1px solid #999; 
+    padding-left: 55px;
+    font-family: arial, sans-serif;
+    outline: medium none;
+    height: 45px;
+    font-size: 32px;
+    font-weight: normal;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;    
+    width: 300px;
+}
+.code_text_box {
+    background:#FFF url('/images/captcha.png') no-repeat 4px 4px;
+    border: 1px solid #999; 
+    padding-left: 55px;
+    font-family: arial, sans-serif;
+    outline: medium none;
+    height: 45px;
+    font-size: 32px;
+    font-weight: normal;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;    
+    width: 190px;
+} 
+.botonLogin{
+        background:#6b84a6 url('/images/ingreso.png') no-repeat 20% 50%;
+        font-size:16px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white; 
+        border:2px;
+        height:35px;
+        width:310px;
+        border-radius: 5px;
+       }        

@@ -1,0 +1,1 @@
+bemat-admin-demo.min.js
