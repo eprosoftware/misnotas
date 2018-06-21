@@ -34,7 +34,7 @@ include_once str_replace("/includes","",getcwd()).'/class/config.php';
 <form action="" method="POST" name="f">
 <table class="table table-bordered table-hover table-striped table-condensed table-responsive">
     <thead>
-    <th>Asignatura</th>
+    <th>ASIGNATURA</th>
     <th>Nota 1</th>
     <th>Nota 2</th>
     <th>Nota 3</th>
