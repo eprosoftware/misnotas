@@ -35,13 +35,13 @@ include_once str_replace("/includes","",getcwd()).'/class/config.php';
 <table class="table table-bordered table-hover table-striped table-condensed table-responsive">
     <thead>
     <th>ASIGNATURA</th>
-    <th>Nota 1</th>
-    <th>Nota 2</th>
-    <th>Nota 3</th>
-    <th>Nota 4</th>
-    <th>Nota 5</th>
-    <th>Nota 6</th>
-    <th>Nota F</th><th></th>
+    <th>N1</th>
+    <th>N2</th>
+    <th>N3</th>
+    <th>N4</th>
+    <th>N5</th>
+    <th>N6</th>
+    <th>NF</th><th></th>
     </thead>
     <?php
     $promedio = 0;$nro_ramos=0;
